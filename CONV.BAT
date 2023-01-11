@@ -1,0 +1,8 @@
+for %%a in (*.flv) do ffmpeg -y -i "%%a" -crf 28 -threads 4 "%%~na.mp4"
+for %%a in (*.wmv) do ffmpeg -y -i "%%a" -crf 28 -threads 4 "%%~na.mp4"
+for %%a in (*.mov) do ffmpeg -y -i "%%a" -crf 28 -threads 4 "%%~na.mp4"
+for %%a in (*.asx) do ffmpeg -y -i "%%a" -crf 28 -threads 4 "%%~na.mp4"
+for %%a in (*.avi) do ffmpeg -y -i "%%a" -crf 28 -threads 4 "%%~na.mp4"
+for %%a in (*.rm) do ffmpeg -y -i "%%a" -crf 28 -threads 4 "%%~na.mp4"
+for %%a in (*.mpg) do ffmpeg -y -i "%%a" -crf 28 -threads 4 "%%~na.mp4"
+for %%a in (*.mpeg) do ffmpeg -y -i "%%a" -crf 28 -threads 4 "%%~na.mp4"
