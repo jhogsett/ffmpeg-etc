@@ -1,1 +1,1 @@
-ffmpeg -y -f concat -i COMBMP4files.txt -c copy outout.mp4
+ffmpeg -y -f concat -i COMBMP4files.txt -c copy combined.mp4
