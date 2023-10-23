@@ -1,0 +1,11 @@
+rename to .mts
+convert to .mp4
+concat with ffmpeg
+
+ffmpeg -y -f concat -i COMBMP4files.txt -c copy outout.mp4
+
+file 'Me-TV-04212023-0801PM.mp4
+file 'Me-TV-04212023-0801PM1.mp4'
+file 'Me-TV-04212023-0801PM2.mp4'
+file 'Me-TV-04212023-0801PM3.mp4'
+file 'Me-TV-04212023-0801PM4.mp4'

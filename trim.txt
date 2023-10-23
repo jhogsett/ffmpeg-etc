@@ -1,0 +1,1 @@
+ffmpeg -ss 00:00 -t 59:49 -i Me-TV-04032023-0900AM.mp4 -c copy Me-TV-04032023-0900AM-trim2.mp4
