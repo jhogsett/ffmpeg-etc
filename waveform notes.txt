@@ -1,0 +1,2 @@
+ffmpeg -y -i oakland_In-N-Out-25dB.avi -filter_complex "[0:a]compand,showwaves=colors=white:scale=lin:mode=cline,format=yuva420p[v];[v]scale=1536:864[bg];[v][bg]overlay=(W-w)/2:H-h/2[outv]" -map "[outv]" -map 0:a -c:v libx264 -c:a copy waveform-sqrt-cline.mp4
+
