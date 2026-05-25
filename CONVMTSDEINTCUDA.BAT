@@ -1,0 +1,1 @@
+for %%a in (*.mts) do ffmpeg -y -hwaccel cuda -hwaccel_output_format cuda -i "%%a" -filter:v yadif_cuda=mode=send_field:parity=auto:deint=all -c:v h264_nvenc -preset p6 -cq 23 -ac 2 "%%~na.mp4"

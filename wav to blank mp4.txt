@@ -1,1 +1,6 @@
 ffmpeg -i "Wolf - marine story.wav" -f lavfi -i color=size=720x480:rate=29.97:color=black -shortest "Wolf - marine story.mp4"
+
+
+
+
+ffmpeg -i combined.wav -f lavfi -i color=size=720x480:rate=29.97:color=black -shortest combined.mpg
